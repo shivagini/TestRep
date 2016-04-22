@@ -1,0 +1,31 @@
+ .main
+{
+  min-width: 600px;
+  width:80%;
+  margin: auto;
+  background-color: red;
+  overflow: hidden;
+}
+.content, aside
+{
+  height: 500 px;
+}
+.content
+{
+  background-color: grey;
+  float: left;
+  width: 500%;
+}
+aside
+{
+
+  background-color: green;
+  float: left;
+  width:50%;
+}
+aside ul
+{
+  list-style: none;
+  padding-left: 0;
+
+}
